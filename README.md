@@ -1,1 +1,1 @@
-https://cfp.atom.im
+https://ly.atom.im
