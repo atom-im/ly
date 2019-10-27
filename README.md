@@ -1,1 +1,1 @@
-Call for papers website (hugo)
+Call for papers website
