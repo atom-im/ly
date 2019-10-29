@@ -354,7 +354,7 @@ open = "2020-09-12"
 close = "2020-09-16 23:59:59"
 absddl = "N/A"
 submddl = "2019-11-15"
-notidue = "2020-03-01"
+notidue = "2020-02-15"
 
 [[params.cfp.list]]
 enable = 1
