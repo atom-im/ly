@@ -4,7 +4,8 @@ pull_request_rules:
       - author=atom-im
     actions:
       merge:
-        method: merge
+        strict: true
+        method: squash
 - name: automatic merge pull request from huwan
     conditions:
       - author=huwan
