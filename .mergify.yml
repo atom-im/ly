@@ -1,5 +1,11 @@
 pull_request_rules:
-  - name: automatic merge on CI success and review
+- name: automatic merge pull request from atom-im
+    conditions:
+      - author=atom-im
+    actions:
+      merge:
+        method: merge
+- name: automatic merge pull request from huwan
     conditions:
       - author=huwan
     actions:
