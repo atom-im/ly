@@ -60,7 +60,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Countdown"
 
-# current section
+# Current section
 [params.current]
 enable = true
 title = "Inactive Calls"
@@ -72,7 +72,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Event starts in"
 
-# past section
+# Past section
 [params.past]
 enable = true
 title = "Past Calls"
