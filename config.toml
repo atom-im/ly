@@ -60,7 +60,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Countdown"
 
-# Current section
+# current section
 [params.current]
 enable = true
 title = "Inactive Calls"
@@ -72,7 +72,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Event starts in"
 
-# Past section
+# past section
 [params.past]
 enable = true
 title = "Past Calls"
@@ -118,7 +118,7 @@ submddl = "2019-08-06 17:00:00 -12:00"
 notidue = "2019-11-06"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ISCA"
 rank = "A"
 site = "http://iscaconf.org/isca2020"
@@ -143,12 +143,12 @@ notidue = "2019-07-27"
 enable = 1
 name = "SC"
 rank = "A"
-site = "https://sc19.supercomputing.org"
-open = "2019-11-17"
-close = "2019-11-22 23:59:59"
-absddl = "2019-04-02"
-submddl = "2019-04-10"
-notidue = "2019-06-15"
+site = "https://sc20.supercomputing.org"
+open = "2020-11-15"
+close = "2020-11-20 23:59:59"
+absddl = "2020-03-31"
+submddl = "2020-04-08"
+notidue = "2020-06-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -172,6 +172,27 @@ absddl = "2019-07-31"
 submddl = "2019-08-06"
 notidue = "2019-11-19"
 
+[[params.cfp.list]]
+enable = 0
+name = "SPAA"
+rank = "B"
+site = "http://spaa.acm.org/"
+open = "2020-07-15"
+close = "2020-07-17 23:59:59"
+absddl = "2020-02-08"
+submddl = "2020-02-15"
+notidue = "2020-04-15"
+
+[[params.cfp.list]]
+enable = 0
+name = "PODC"
+rank = "B"
+site = "https://www.podc.org/"
+open = "2020-08-03"
+close = "2020-08-07 23:59:59"
+absddl = "N/A"
+submddl = "2020-02-17"
+notidue = "2020-05-04"
 
 [[params.cfp.list]]
 enable = 1
@@ -206,14 +227,24 @@ absddl = "N/A"
 submddl = "2019-11-04 23:59:59"
 notidue = "2020-02-15"
 
+[[params.cfp.list]]
+enable = 0
+name = "HPDC"
+rank = "B"
+site = "http://www.hpdc.org/2020/"
+open = "2020-06-23"
+close = "2020-06-26 23:59:59"
+absddl = "2020-01-16"
+submddl = "2020-01-23"
+notidue = "2020-03-27"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICCD"
 rank = "B"
 site = "http://www.iccd-conf.com"
-open = "2019-11-17"
-close = "2019-11-20 23:59:59"
+open = "2020-07-01"
+close = "2020-07-03 23:59:59"
 absddl = "2019-06-28"
 submddl = "2019-07-07"
 notidue = "2019-09-09"
@@ -224,10 +255,10 @@ name = "ICCAD"
 rank = "B"
 site = "http://www.iccad-conf.com"
 open = "2019-07-02"
-close = "2019-07-04 23:59:59"
+close = "2019-07-03 23:59:59"
 absddl = "N/A"
-submddl = "2019-07-02"
-notidue = "2019-07-02"
+submddl = "2020-01-31"
+notidue = "2020-03-31"
 
 [[params.cfp.list]]
 enable = 1
@@ -244,13 +275,45 @@ notidue = "2019-11-15"
 enable = 1
 name = "SIGMETRICS"
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2019"
-open = "2019-06-24"
-close = "2019-06-28 23:59:59"
-absddl = "2018-10-22"
-submddl = "2018-10-29"
-notidue = "2018-12-17"
+site = "https://www.sigmetrics.org/sigmetrics2020"
+open = "2020-06-08"
+close = "2020-06-12 23:59:59"
+absddl = "2020-01-27"
+submddl = "2020-02-03"
+notidue = "2020-03-31"
 
+[[params.cfp.list]]
+enable = 0
+name = "ICPP"
+rank = "B"
+site = "http://www.icpp-conf.org"
+open = "2020-08-17"
+close = "2020-08-20 23:59:59 +09:00"
+absddl = "2020-03-02"
+submddl = "2020-03-09"
+notidue = "2020-05-19"
+
+[[params.cfp.list]]
+enable = 0
+name = "ICS"
+rank = "B"
+site = "https://ics2020.bsc.es/"
+open = "2020-06-29"
+close = "2020-07-02 23:59:59"
+absddl = "2020-01-24"
+submddl = "2020-01-31"
+notidue = "2020-04-15"
+
+[[params.cfp.list]]
+enable = 0
+name = "IPDPS"
+rank = "B"
+site = "http://www.ipdps.org/"
+open = "2020-05-18"
+close = "2020-05-22 23:59:59"
+absddl = "2019-10-07 23:59:59 -12:00"
+submddl = "2019-10-14 23:59:59 -12:00"
+notidue = "2019-12-09"
 
 [[params.cfp.list]]
 enable = 1
@@ -263,31 +326,71 @@ absddl = "N/A"
 submddl = "2020-01-07"
 notidue = "2020-02-15"
 
-
-
 [[params.cfp.list]]
-enable = 1
-name = "CODES+ISSS"
+enable = 0
+name = "PACT"
 rank = "B"
-site = "http://www.esweek.org"
-open = "2019-10-13"
-close = "2019-10-18 23:59:59"
-absddl = "2019-04-05"
-submddl = "2019-04-12"
-notidue = "2019-07-10"
-
+site = "http://hpc.pnl.gov/pact19/"
+open = "2019-09-23"
+close = "2019-09-26 23:59:59"
+absddl = "2019-04-11"
+submddl = "2019-04-15"
+notidue = "2019-06-08"
 
 [[params.cfp.list]]
-enable = 1
+enable = 0
+name = "OOPSLA"
+rank = "A"
+site = "https://2020.splashcon.org/"
+open = "2020-11-15"
+close = "2020-11-20 23:59:59"
+absddl = "N/A"
+submddl = "2020-04-15"
+notidue = "2020-07-01"
+
+[[params.cfp.list]]
+enable = 0
+name = "ICSE"
+rank = "A"
+site = "https://conf.researchr.org/home/icse-2020"
+open = "2020-05-23"
+close = "2020-05-29 23:59:59"
+absddl = "N/A"
+submddl = "2019-08-23 23:59:59 -12:00"
+notidue = "2019-12-09"
+
+[[params.cfp.list]]
+enable = 2
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi20/"
 open = "2020-11-04"
-close = "2020-11-06 23:59:59"
-absddl = "N/A"
-submddl = "2020-05-01"
-notidue = "2020-05-01"
+close = "2020-11-06 23:59:59 -07:00"
+absddl = "2020-05-05 15:00:00 -07:00"
+submddl = "2020-05-12 15:00:00 -07:00"
+notidue = "2020-08-04"
 
+[[params.cfp.list]]
+enable = 0
+name = "PLDI"
+rank = "A"
+site = "http://pldi20.sigplan.org"
+open = "2020-06-15"
+close = "2020-06-20 23:59:59"
+absddl = "N/A"
+submddl = "2019-11-22"
+notidue = "2020-02-21"
+
+[[params.cfp.list]]
+enable = 0
+name = "POPL"
+rank = "A"
+site = "https://popl20.sigplan.org/"
+open = "2020-01-19"
+close = "2020-01-25 23:59:59"
+absddl = "N/A"
+submddl = "2019-07-10"
+notidue = "2019-10-14"
 
 [[params.cfp.list]]
 enable = 1
@@ -312,6 +415,94 @@ submddl = "2019-01-17"
 notidue = "2019-03-11"
 
 [[params.cfp.list]]
+enable = 0
+name = "SIGMOD-2"
+rank = "A"
+site = "https://sigmod2020.org/"
+open = "2020-06-14"
+close = "2020-06-20 23:59:59"
+absddl = "2019-10-15"
+submddl = "2019-10-22"
+notidue = "2020-01-17"
+
+[[params.cfp.list]]
+enable = 0
+name = "VLDB"
+rank = "A"
+site = "https://vldb2020.org/"
+open = "2020-08-31"
+close = "2020-09-04 23:59:59"
+absddl = "2020-02-20"
+submddl = "2020-03-01"
+notidue = "2020-04-15"
+
+[[params.cfp.list]]
+enable = 0
+name = "ICDE-1"
+rank = "A"
+site = "https://www.utdallas.edu/icde/"
+open = "2020-04-20"
+close = "2020-04-24 23:59:59"
+absddl = "2019-06-08"
+submddl = "2019-06-15"
+notidue = "2019-08-10"
+
+[[params.cfp.list]]
+enable = 0
+name = "ICDE-2"
+rank = "A"
+site = "https://www.utdallas.edu/icde/"
+open = "2020-04-20"
+close = "2020-04-24 23:59:59"
+absddl = "2019-10-08 23:59:59 -07:00"
+submddl = "2019-10-15 23:59:59 -07:00"
+notidue = "2019-12-14"
+
+[[params.cfp.list]]
+enable = 0
+name = "CIDR"
+rank = "A"
+site = "http://cidrdb.org/cidr2020/"
+open = "2020-01-12"
+close = "2020-01-15 23:59:59"
+absddl = "N/A"
+submddl = "2019-08-23 23:59:59 -07:00"
+notidue = "2019-10-14"
+
+[[params.cfp.list]]
+enable = 0
+name = "EMSOFT"
+rank = "B"
+site = "http://www.esweek.org"
+open = "2020-10-11"
+close = "2020-10-16 23:59:59"
+absddl = "2020-04-03"
+submddl = "2020-04-10"
+notidue = "2020-07-06"
+
+[[params.cfp.list]]
+enable = 1
+name = "CODES+ISSS"
+rank = "B"
+site = "http://www.esweek.org"
+open = "2020-10-11"
+close = "2020-10-16 23:59:59"
+absddl = "2020-04-03"
+submddl = "2020-04-10"
+notidue = "2020-07-06"
+
+[[params.cfp.list]]
+enable = 0
+name = "NVMSA"
+rank = "-"
+site = "https://nvmsa2019.github.io/index"
+open = "2019-08-18"
+close = "2019-08-21 23:59:59"
+absddl = "2019-04-12"
+submddl = "2019-04-19"
+notidue = "2019-05-20"
+
+[[params.cfp.list]]
 enable = 1
 name = "HotStorage"
 rank = "-"
@@ -323,6 +514,17 @@ submddl = "2019-03-03"
 notidue = "2019-04-17"
 
 [[params.cfp.list]]
+enable = 0
+name = "SysML"
+rank = "-"
+site = "https://systemsandml.org"
+open = "2020-03-02"
+close = "2020-03-04 23:59:59"
+absddl = "N/A"
+submddl = "2019-09-09 16:59:59 -12:00"
+notidue = "2020-01-03"
+
+[[params.cfp.list]]
 enable = 1
 name = "Mobicom"
 rank = "A"
@@ -332,7 +534,6 @@ close = "2020-09-25 23:59:59"
 absddl = "2019-08-14"
 submddl = "2019-08-18"
 notidue = "2019-10-23"
-
 
 [[params.cfp.list]]
 enable = 1
