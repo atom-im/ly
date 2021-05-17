@@ -1,0 +1,35 @@
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '1 */1 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@v1.1.1
+        with:
+          timezone: Asia/Hong_Kong
+
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          disable_nojekyll: true
+          full_commit_message: ${{ github.event.head_commit.message }}
