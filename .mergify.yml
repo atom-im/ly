@@ -13,3 +13,10 @@ pull_request_rules:
     merge:
       strict: smart
       method: squash
+- name: automatic merge pull request from yuliang
+  conditions:
+    - author=yliang323
+  actions:
+    merge:
+      strict: smart
+      method: squash
